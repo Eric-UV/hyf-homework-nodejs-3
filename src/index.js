@@ -2,8 +2,8 @@ const express = require('express');
 //const data = require('./data/users.json');
 const app = express();
 const port = 3000;
-const fs = require('fs');
-const users = [];
+//const fs = require('fs');
+let users = [];
 
 app.use(express.urlencoded());
 app.use(express.json());
