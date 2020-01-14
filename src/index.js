@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 app.get('/users', (req, res) => {
-    res.send(JSON.stringify(data));
+    res.send(data);
 });
 app.get('/user/:id', (req, res) => {
     let users = JSON.parse(JSON.stringify(data));    
