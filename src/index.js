@@ -27,7 +27,7 @@ app.post('/user', (req, res) => {
         email: req.body.email
     };*/
 
-    let users = []; //JSON.parse(JSON.stringify(data));
+    //JSON.parse(JSON.stringify(data));
     users.push({ id: 0 });
     //let allUsers = JSON.stringify(users);
     //fs.writeFileSync(__dirname + '/data/users.json', allUsers);
